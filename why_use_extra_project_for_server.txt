@@ -1,0 +1,18 @@
+
+
+
+BECAUSE
+If the db.json is kept in the main project
+it will cause error while deployment
+
+use a different port for server, set it inside the package.json "script": {
+    "server": "json-server --watch db.json --port 5000"
+}
+
+
+then use npm run server to run the server from 
+this seperate project
+
+now if we deploy this server separately (use https://render.com instead of vercel)
+it will be up and working and we can use it 
+in other projects through api fetch

@@ -1,0 +1,101 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "json-server",
+            "author": "typicode"
+        },
+        {
+            "id": 2,
+            "title": "json-server",
+            "author": "typicode"
+        },
+        {
+            "id": 3,
+            "title": "json-server",
+            "author": "typicode"
+        },
+        {
+            "id": 4,
+            "title": "json-server",
+            "author": "typicode"
+        },
+        {
+            "id": 5,
+            "title": "json-server",
+            "author": "typicode"
+        },
+        {
+            "id": 6,
+            "title": "json-server",
+            "author": "typicode"
+        }
+    ],
+
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+
+    "profile": {
+        "name": "typicode"
+    },
+
+    "users": [
+        {
+            "id": 1,
+            "name": "typicode"
+        },
+        {
+            "id": 2,
+            "name": "typicode"
+        },
+        {
+            "id": 3,
+            "name": "typicode"
+        },
+        {
+            "id": 4,
+            "name": "typicode"
+        },
+        {
+            "id": 5,
+            "name": "typicode"
+        },
+        {
+            "id": 6,
+            "name": "typicode"
+        }
+    ],
+
+    "products": [
+        {
+            "id": 1,
+            "name": "Leather Jacket",
+            "price": 100
+        },
+        {
+            "id": 2,
+            "name": "Leather Jacket",
+            "price": 100
+        },
+        {
+            "id": 3,
+            "name": "Leather Jacket",
+            "price": 100
+        },
+        {
+            "id": 4,
+            "name": "Leather Jacket",
+            "price": 100
+        },
+        {
+            "id": 5,
+            "name": "Leather Jacket",
+            "price": 100
+        },
+    ]
+}
