@@ -16,3 +16,14 @@ this seperate project
 now if we deploy this server separately (use https://render.com instead of vercel)
 it will be up and working and we can use it 
 in other projects through api fetch
+
+
+#### steps after:
+1. create .gitignore file, keep node_module inside, 
+so it does not go to github
+2. create public folder and a dummy .gitkeep file inside , so that git does not ignore public as an empty folder
+3. then create a git repo for this server project
+4. select this as a new web service in render
+5. language: Node, Buld command: npm install, 
+Start Command: npm run server, Instance type: free
+6. Deploy web service click
